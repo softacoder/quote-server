@@ -9,8 +9,8 @@ const app = express();
 const quotes = require("./quotes.json");
 
 
-START OF YOUR CODE...
-app.get('', (req, res) => {
+// START OF YOUR CODE...
+app.get('/quotes', (req, res) => {
   res.send(quotes);
 })
 
